@@ -10,7 +10,7 @@ public class Assin_4 {
   public void auth_2_0() 
   {
 	  given()
-	  		.auth().oauth2("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")
+	  		.auth().oauth2("password")
 	  .when()
 	  		.get("https://api.github.com/user/repos")
 	  

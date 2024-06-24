@@ -20,7 +20,7 @@ public class getApiTest {
   {
 	  given()
 		.baseUri("https://api.postman.com")
-		.header("X-Api-Key" , "PMAK-666b3087421ad60001a1213c-8ead6d846937492b5f6958e281e7f86cfc")
+		.header("X-Api-Key" , "password")
 		
 	.when()
 		.get("workspaces")
@@ -35,7 +35,7 @@ public class getApiTest {
   {
 	  given()
 		.baseUri("https://api.postman.com")
-		.header("X-Api-Key" , "PMAK-666b3087421ad60001a1213c-8ead6d846937492b5f6958e281e7f86cfc")
+		.header("X-Api-Key" , "password")
 		
 	.when()
 		.get("workspaces")
@@ -54,7 +54,7 @@ public class getApiTest {
   {
 	  	Response res = given()
 		.baseUri("https://api.postman.com")
-		.header("X-Api-Key" , "PMAK-666b3087421ad60001a1213c-8ead6d846937492b5f6958e281e7f86cfc")
+		.header("X-Api-Key" , "password")
 		
 	.when()
 		.get("workspaces")
@@ -72,7 +72,7 @@ public class getApiTest {
   {
 	  	String res = given()
 		.baseUri("https://api.postman.com")
-		.header("X-Api-Key" , "PMAK-666b3087421ad60001a1213c-8ead6d846937492b5f6958e281e7f86cfc")
+		.header("X-Api-Key" , "password")
 		
 	.when()
 		.get("workspaces")
@@ -91,7 +91,7 @@ public class getApiTest {
   {
 	  	String name = given()
 		.baseUri("https://api.postman.com")
-		.header("X-Api-Key" , "PMAK-666b3087421ad60001a1213c-8ead6d846937492b5f6958e281e7f86cfc")
+		.header("X-Api-Key" , "password")
 		
 	.when()
 		.get("workspaces")

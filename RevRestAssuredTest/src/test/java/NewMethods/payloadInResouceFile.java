@@ -30,7 +30,7 @@ public class payloadInResouceFile {
 	  
 	  RequestSpecBuilder requestSpecBuilder = new RequestSpecBuilder().
 			  setBaseUri("https://api.postman.com").
-			  addHeader("X-Api-Key" , "PMAK-666b3087421ad60001a1213c-8ead6d846937492b5f6958e281e7f86cfc")
+			  addHeader("X-Api-Key" , "password")
 	  		  .log(LogDetail.ALL);
 	  RestAssured.requestSpecification = requestSpecBuilder.build();
 	  
